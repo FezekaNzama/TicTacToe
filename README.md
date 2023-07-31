@@ -24,6 +24,28 @@ A simple tic tac toe game created with MVC principles in mind using java, javafx
 - In the command line navigate to the folder with the jar file (an executable java jar file of the app is included in the project folder. The file is titled "tictactoe.jar")
 - In the command line type the following _"java -jar 'filename'.jar "_ eg. _java -jar tictactoe.jar _
 
+#### MIT License
+
+Copyright (c) 2023, Fezeka Nzama
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
 #### In Game Screenshots
 ![Screenshot (220)](https://github.com/FezekaNzama/TicTacToe/assets/55462056/9f1376d6-9d89-4bec-950c-f5f2a3576549)
 ![Screenshot (217)](https://github.com/FezekaNzama/TicTacToe/assets/55462056/6fb9c825-567f-407d-b9a7-b3c5e499d766)
