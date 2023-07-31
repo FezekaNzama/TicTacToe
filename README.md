@@ -19,6 +19,7 @@ A simple tic tac toe game created with MVC principles in mind using java, javafx
 - In the terminal window type _"mvn clean package"_
 
 #### Run the jar file (VScode was the IDE used in development of this app):
+- Ensure both java and maven are saved to the system path variable
 - Open the command line terminal
 - In the command line navigate to the folder with the jar file (an executable java jar file of the app is included in the project folder. The file is titled "tictactoe.jar")
 - In the command line type the following _"java -jar 'filename'.jar "_ eg. _java -jar tictactoe.jar _
