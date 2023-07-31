@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+<?import java.net.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fezekanzama.BoardController">
+   <stylesheets>
+      <URL value="@styles.css" />
+   </stylesheets>
+   <children>
+      <HBox alignment="CENTER" spacing="40.0" prefWidth="200.0">
+         <children>
+            <VBox alignment="CENTER" HBox.hgrow="ALWAYS">
+               <Label text="Player one" styleClass="playerTitle"/>
+               <Label fx:id="playerOneName" styleClass="playerName"/>
+            </VBox>
+            <VBox alignment="CENTER" HBox.hgrow="ALWAYS">
+               <Label text="Player two" styleClass="playerTitle"/>
+               <Label fx:id="playerTwoName" styleClass="playerName"/>
+            </VBox>
+         </children>
+      </HBox>
+      <Label text="Currently playing:" styleClass="playerTitle"/>
+      <Label fx:id="currentPlayer" styleClass="currentPlayer"/>
+      <GridPane alignment="CENTER">
+         <Button fx:id="buttonOne" prefWidth="40.0" prefHeight="40.0"   GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="1" onAction="#play"/>
+         <Button fx:id="buttonTwo" prefWidth="40.0" prefHeight="40.0"   GridPane.columnIndex="1" GridPane.rowIndex="0" GridPane.columnSpan="1" onAction="#play"/>
+         <Button fx:id="buttonThree" prefWidth="40.0" prefHeight="40.0"   GridPane.columnIndex="2" GridPane.rowIndex="0" GridPane.columnSpan="1" onAction="#play"/>
+         <Button fx:id="buttonFour" prefWidth="40.0" prefHeight="40.0"   GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.columnSpan="1" onAction="#play"/>
+         <Button fx:id="buttonFive" prefWidth="40.0" prefHeight="40.0"   GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.columnSpan="1" onAction="#play"/>
+         <Button fx:id="buttonSix" prefWidth="40.0" prefHeight="40.0"   GridPane.columnIndex="2" GridPane.rowIndex="1" GridPane.columnSpan="1" onAction="#play"/>
+         <Button fx:id="buttonSeven" prefWidth="40.0" prefHeight="40.0"   GridPane.columnIndex="0" GridPane.rowIndex="2" GridPane.columnSpan="1" onAction="#play"/>
+         <Button fx:id="buttonEight" prefWidth="40.0" prefHeight="40.0"   GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.columnSpan="1" onAction="#play"/>
+         <Button fx:id="buttonNine" prefWidth="40.0" prefHeight="40.0"   GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.columnSpan="1" onAction="#play"/>
+      </GridPane>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
